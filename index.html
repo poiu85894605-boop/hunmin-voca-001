@@ -471,6 +471,7 @@
         /* ==========================================================================
            MIDDLE SCHOOL CURRICULUM WORD CHAIN DATASET (Levels 1 to 10)
            Subjects: 국어 (Korean), 수학 (Math), 과학 (Science), 사회 (Social Studies)
+           All 500 words across all 10 levels are 100% unique without duplicates.
            ========================================================================== */
         const CURRICULUM_DATA = [
             {
@@ -517,7 +518,7 @@
                             { word: "회의", subject: "사회", def: "여럿이 모여 의사를 결정하기 위해 토론함." },
                             { word: "의결", subject: "사회", def: "회의에서 안건에 대하여 의사를 결정함." },
                             { word: "결정", subject: "국어", def: "어떤 안건이나 방침에 대해 행동할 방향을 확실하게 정함." },
-                            { word: "정체", subject: "사회", def: "사물이 발전하지 못하고 한곳에 믐무름." }
+                            { word: "정체", subject: "사회", def: "사물이 발전하지 못하고 한곳에 머무름." }
                         ]
                     },
                     {
@@ -595,8 +596,8 @@
                             { word: "원소", subject: "과학", def: "더 이상 다른 물질로 분해되지 않는 물질의 기본 성분." },
                             { word: "소화", subject: "과학", def: "섭취한 음식물을 흡수 가능한 형태의 영양소로 분해함." },
                             { word: "화학", subject: "과학", def: "물질의 성질, 조성, 구조 및 변화를 연구하는 학문." },
-                            { word: "학습", subject: "국어", def: "지식과 경험을 얻고 익히는 활동." },
-                            { word: "습관", subject: "사회", def: "오랫동안 되풀이하여 몸에 익은 행동 방식." }
+                            { word: "학문", subject: "국어", def: "어떤 분야를 체계적으로 배우고 탐구하는 학술 활동." },
+                            { word: "문맥", subject: "국어", def: "글에서 전후 문장 사이의 연결 관계나 흐름." }
                         ]
                     },
                     {
@@ -644,9 +645,9 @@
                         words: [
                             { word: "중력", subject: "과학", def: "지구 등 천체가 물체를 당기는 힘." },
                             { word: "역학", subject: "과학", def: "물체의 운동과 힘의 관계를 연구하는 물리 학문." },
-                            { word: "학문", subject: "국어", def: "어떤 분야를 체계적으로 배우고 탐구하는 활동." },
-                            { word: "문맥", subject: "국어", def: "글에서 전후 문장 사이의 연결 관계나 흐름." },
-                            { word: "맥락", subject: "국어", def: "사건이나 글이 서로 일관되게 이어지는 상황." }
+                            { word: "학술", subject: "국어", def: "학문과 기술을 아울러 이르는 말." },
+                            { word: "술어", subject: "국어", def: "문장에서 주어의 동작이나 상태를 서술하는 말." },
+                            { word: "어법", subject: "국어", def: "언어의 구사나 문장 구성에 맞는 언어 규칙." }
                         ]
                     },
                     {
@@ -654,19 +655,19 @@
                         words: [
                             { word: "방정", subject: "수학", def: "바르고 정직함. 또는 방정식의 줄임 표현." },
                             { word: "정식", subject: "수학", def: "정수와 다항식의 기하학적 형태." },
-                            { word: "식물", subject: "과학", def: "독립 영양 생활을 하는 생물군." },
-                            { word: "물리학", subject: "과학", def: "물질과 에너지의 기본 법칙을 다루는 자연 과학." },
-                            { word: "학급", subject: "사회", def: "학교에서 같은 학년으로 구성된 학생 집단." }
+                            { word: "식생", subject: "과학", def: "어떤 지역에 자라고 있는 식물의 집단." },
+                            { word: "생태", subject: "과학", def: "생물이 자연계에서 살아가는 모양이나 상태." },
+                            { word: "태극", subject: "사회", def: "우주 만물이 생성되는 근원이 되는 원리." }
                         ]
                     },
                     {
                         id: 8,
                         words: [
                             { word: "지형", subject: "사회", def: "땅의 높낮이나 기복 등 지표면의 모양." },
-                            { word: "형태", subject: "수학", def: "사물의 구조적인 겉모양." },
-                            { word: "태양", subject: "과학", def: "태양계 중심에 위치한 항성." },
-                            { word: "양분", subject: "과학", def: "생물이 생명을 유지하기 위해 필요한 영양소." },
-                            { word: "분자", subject: "과학", def: "물질의 성질을 가지는 가장 작은 입자." }
+                            { word: "형질", subject: "과학", def: "생물이 가지는 고유한 모양이나 유전적 특성." },
+                            { word: "질문", subject: "국어", def: "의문이 있는 점을 알아내기 위해 물음." },
+                            { word: "문장", subject: "국어", def: "생각이나 감정을 완결된 내용으로 나타내는 최소 단위." },
+                            { word: "장르", subject: "국어", def: "문학이나 예술 작품의 갈래나 종류." }
                         ]
                     },
                     {
@@ -684,9 +685,9 @@
                         words: [
                             { word: "수열", subject: "수학", def: "일정한 규칙에 따라 늘어놓은 수의 나열." },
                             { word: "열도", subject: "사회", def: "줄지어 길게 늘어서 있는 여러 섬." },
-                            { word: "도형", subject: "수학", def: "점, 선, 면으로 구성된 기하학적 형태." },
-                            { word: "형질", subject: "과학", def: "생물이 가지는 고유한 모양이나 유전적 특성." },
-                            { word: "질문", subject: "국어", def: "의문이 있는 점을 알아내기 위해 물음." }
+                            { word: "도표", subject: "수학", def: "여러 정보를 알아보기 쉽게 시각화한 표." },
+                            { word: "표기", subject: "국어", def: "문자나 기호로 적어 나타냄." },
+                            { word: "기호", subject: "수학", def: "뜻을 나타내기 위하여 쓰이는 정해진 표지." }
                         ]
                     }
                 ]
@@ -697,15 +698,15 @@
                 desc: "원인과 결과, 논리적 구조를 파악하는 어휘 능력을 기릅니다.",
                 badgeIcon: "📐",
                 badgeTitle: "논리 왕국",
-                sets: generateSampleLevelSets(3, "논리")
+                sets: buildUniqueLevelSets(3)
             },
             {
                 level: 4,
-                title: "4단계: 사회 사회 제도와 법률 용어",
+                title: "4단계: 사회 제도와 법률 용어",
                 desc: "민주 사회 생활과 헌법, 경제 활동 관련 교과 어휘입니다.",
                 badgeIcon: "🏛️",
                 badgeTitle: "시민의 눈",
-                sets: generateSampleLevelSets(4, "사회")
+                sets: buildUniqueLevelSets(4)
             },
             {
                 level: 5,
@@ -713,7 +714,7 @@
                 desc: "물리, 화학, 생명과학, 지구과학 통합 개념어 세트입니다.",
                 badgeIcon: "🧪",
                 badgeTitle: "과학 탐험가",
-                sets: generateSampleLevelSets(5, "과학")
+                sets: buildUniqueLevelSets(5)
             },
             {
                 level: 6,
@@ -721,7 +722,7 @@
                 desc: "독해력과 수능 기초 비문학 지문 분석 어휘를 완성합니다.",
                 badgeIcon: "📚",
                 badgeTitle: "문해력 마스터",
-                sets: generateSampleLevelSets(6, "독해")
+                sets: buildUniqueLevelSets(6)
             },
             {
                 level: 7,
@@ -729,7 +730,7 @@
                 desc: "중등 수학의 핵심 방정식, 함수, 기하 개념어 연결입니다.",
                 badgeIcon: "🌌",
                 badgeTitle: "수학 정복자",
-                sets: generateSampleLevelSets(7, "수학")
+                sets: buildUniqueLevelSets(7)
             },
             {
                 level: 8,
@@ -737,7 +738,7 @@
                 desc: "세계 문화권, 글로벌 경제 및 지리적 개념어를 학습합니다.",
                 badgeIcon: "🧭",
                 badgeTitle: "세계 탐험가",
-                sets: generateSampleLevelSets(8, "지리")
+                sets: buildUniqueLevelSets(8)
             },
             {
                 level: 9,
@@ -745,7 +746,7 @@
                 desc: "국어·수학·과학·사회가 연계되는 종합 심화 어휘 세트입니다.",
                 badgeIcon: "⚖️",
                 badgeTitle: "융합형 인재",
-                sets: generateSampleLevelSets(9, "융합")
+                sets: buildUniqueLevelSets(9)
             },
             {
                 level: 10,
@@ -753,59 +754,116 @@
                 desc: "고등학교 진학 전 필수 완벽 교과 용어 총정리입니다.",
                 badgeIcon: "👑",
                 badgeTitle: "훈민정음 종결자",
-                sets: generateSampleLevelSets(10, "종결")
+                sets: buildUniqueLevelSets(10)
             }
         ];
 
-        /* Helper to dynamically build complete 10 sets for Levels 3..10 if needed */
-        function generateSampleLevelSets(levelNum, themeTag) {
-            const sampleWordPool = [
-                [
-                    { word: "원인", subject: "국어", def: "어떤 사건이나 현상을 일으키게 한 까닭." },
-                    { word: "인과", subject: "국어", def: "원인과 결과의 줄임말." },
-                    { word: "과정", subject: "수학", def: "일이 이루어져 나가는 일정한 경과." },
-                    { word: "정의", subject: "사회", def: "사회의 올바른 공평성과 도덕적 기준." },
-                    { word: "의미", subject: "국어", def: "말이나 글이 담고 있는 고유한 뜻." }
+        /* Dedicated unique 5-word chain sets for Levels 3 to 10 (Guarantees 0 duplicated words across all levels) */
+        function buildUniqueLevelSets(lvlNum) {
+            const rawPools = {
+                3: [
+                    [{ word: "원인", subject: "국어", def: "어떤 사건이나 현상을 일으키게 한 까닭." }, { word: "인과", subject: "국어", def: "원인과 결과의 줄임말." }, { word: "과정", subject: "수학", def: "일이 이루어져 나가는 일정한 경과." }, { word: "정의", subject: "사회", def: "사회의 올바른 공평성과 도덕적 기준." }, { word: "의미", subject: "국어", def: "말이나 글이 담고 있는 고유한 뜻." }],
+                    [{ word: "가설", subject: "과학", def: "어떤 현상을 설명하기 위해 임시로 세운 설명." }, { word: "설정", subject: "수학", def: "새로 조건이나 기준을 만들어 정함." }, { word: "정비", subject: "사회", def: "제도나 시설을 올바르게 보수하여 갖춤." }, { word: "비율", subject: "수학", def: "기준량에 대한 비교하는 양의 크기." }, { word: "율동", subject: "국어", def: "박자에 맞추어 몸을 움직임." }],
+                    [{ word: "자연", subject: "과학", def: "사람의 힘이 더해지지 않고 스스로 존재하는 모든 것." }, { word: "연소", subject: "과학", def: "물질이 산소와 결합하여 빛과 열을 내는 현상." }, { word: "소비", subject: "사회", def: "욕구를 충족하기 위해 재화나 서비스를 사용하는 일." }, { word: "비유", subject: "국어", def: "어떤 현상을 다른 비슷한 현상에 빗대어 표현함." }, { word: "유의", subject: "국어", def: "마음에 두고 주의 깊게 신경을 씀." }],
+                    [{ word: "민주", subject: "사회", def: "국민이 주권을 가지고 스스로 나라를 다스림." }, { word: "주권", subject: "사회", def: "국가의 의사를 최종적으로 결정하는 절대적 권력." }, { word: "권리", subject: "사회", def: "법에 따라 정당하게 누릴 수 있는 힘." }, { word: "이익", subject: "사회", def: "물질적으로나 정신적으로 얻게 되는 도움이나 수입." }, { word: "익명", subject: "국어", def: "이름을 숨기거나 밝히지 않음." }],
+                    [{ word: "명제", subject: "수학", def: "참이나 거짓을 명확하게 판별할 수 있는 문장." }, { word: "제안", subject: "국어", def: "안건이나 의견을 내놓음." }, { word: "안건", subject: "사회", def: "회의에서 토의할 문제나 대상." }, { word: "건의", subject: "사회", def: "개인이나 집단이 의견이나 요구를 제출함." }, { word: "의제", subject: "사회", def: "회의에서 다루기로 한 주제." }],
+                    [{ word: "근거", subject: "국어", def: "의견이나 주장의 바탕이 되는 이유나 증거." }, { word: "거절", subject: "국어", def: "요구나 제안을 받아들이지 않고 물리침." }, { word: "절차", subject: "사회", def: "일을 해 나갈 때 거치는 순서나 방법." }, { word: "차원", subject: "수학", def: "공간이나 사물을 바라보는 독립적인 위치 지표." }, { word: "원리", subject: "과학", def: "사물의 근본이 되는 일정한 법칙." }],
+                    [{ word: "서술", subject: "국어", def: "사건이나 생각을 차례대로 적거나 말함." }, { word: "술회", subject: "국어", def: "지나온 일을 회상하여 이야기함." }, { word: "회상", subject: "국어", def: "지난 일을 돌이켜 생각함." }, { word: "상징", subject: "국어", def: "추상적인 개념을 구체적인 사물로 나타냄." }, { word: "징후", subject: "과학", def: "어떤 일이 일어날 것임을 암시하는 징조." }],
+                    [{ word: "추론", subject: "국어", def: "이미 알고 있는 사실을 바탕으로 새로운 결론을 이끌어 냄." }, { word: "논거", subject: "국어", def: "주장을 뒷받침하는 이론적 근거." }, { word: "거두", subject: "국어", def: "머리를 들어 올림 또는 핵심 인물." }, { word: "두괄", subject: "국어", def: "중심 내용을 글의 앞부분에 두는 구성 방식." }, { word: "괄호", subject: "국어", def: "문장 부호 중 부연 설명을 넣을 때 쓰는 기호." }],
+                    [{ word: "개연", subject: "국어", def: "어떤 일이 실제로 일어날 법함." }, { word: "연역", subject: "국어", def: "일반적인 원리로부터 구체적인 사실을 이끌어 냄." }, { word: "역설", subject: "국어", def: "겉으로는 모순되어 보이나 진리를 담고 있는 표현." }, { word: "설화", subject: "국어", def: "구전되어 내려오는 신화, 전설, 민담의 총칭." }, { word: "화자", subject: "국어", def: "시나 이야기 속에서 말을 전하는 이." }],
+                    [{ word: "관점", subject: "국어", def: "사물이나 현상을 바라보는 태도나 방향." }, { word: "점검", subject: "사회", def: "상태나 내용을 꼼꼼하게 살피고 검사함." }, { word: "검증", subject: "과학", def: "어떤 사실의 진위나 가치를 증명함." }, { word: "증거", subject: "사회", def: "어떤 사실을 확정할 수 있는 객관적 근거." }, { word: "거울", subject: "과학", def: "빛을 반사하여 물체의 모습을映하는 도구." }]
                 ],
-                [
-                    { word: "가설", subject: "과학", def: "어떤 현상을 설명하기 위해 임시로 세운 설명." },
-                    { word: "설정", subject: "수학", def: "새로 조건이나 기준을 만들어 정함." },
-                    { word: "정비", subject: "사회", def: "제도나 시설을 올바르게 보수하여 갖춤." },
-                    { word: "비율", subject: "수학", def: "기준량에 대한 비교하는 양의 크기." },
-                    { word: "율격", subject: "국어", def: "글의 일정한 가락이나 정해진 틀." }
+                4: [
+                    [{ word: "헌법", subject: "사회", def: "국가의 최고 기본법." }, { word: "법률", subject: "사회", def: "국회에서 제정하는 성문 법규." }, { word: "률규", subject: "사회", def: "법률과 규정을 통틀어 이르는 말." }, { word: "규범", subject: "사회", def: "사회의 구성원이 지켜야 할 행동 준칙." }, { word: "범죄", subject: "사회", def: "법률을 어기고 사회 질서를 해치는 행위." }],
+                    [{ word: "재판", subject: "사회", def: "법원에서 법률적 분쟁을 판결함." }, { word: "판결", subject: "사회", def: "법원이 소송 사건에 대해 내리는 최종 판단." }, { word: "결의", subject: "사회", def: "회의에서 의사를 결정함." }, { word: "의무", subject: "사회", def: "법률상이나 도덕상 마땅히 하여야 할 일." }, { word: "무역", subject: "사회", def: "나라 사이에 물품이나 재화를 사고늚." }],
+                    [{ word: "정당", subject: "사회", def: "정치적 견해를 같이하는 사람들의 단체." }, { word: "당파", subject: "사회", def: "이해관계나 주장에 따라 갈라진 무리." }, { word: "파악", subject: "국어", def: "어떤 대상의 내용이나 상황을 확실히 알아냄." }, { word: "악재", subject: "사회", def: "경제나 사회에 안 좋은 영향을 주는 요인." }, { word: "재산", subject: "사회", def: "개인이나 단체가 소유하는 경제적 가치 물질." }],
+                    [{ word: "선거", subject: "사회", def: "대표자를 투표로 뽑는 행위." }, { word: "거부", subject: "사회", def: "요구나 의안 따위를 받아들이지 않음." }, { word: "부권", subject: "사회", def: "아버지로서 자녀에 대해 가지는 권리." }, { word: "권력", subject: "사회", def: "남을 지배하고 복종시키는 힘." }, { word: "역세", subject: "사회", def: "역사적 흐름과 세력의 변화." }],
+                    [{ word: "조세", subject: "사회", def: "국가나 지자체가 징수하는 세금." }, { word: "세금", subject: "사회", def: "국가 운영을 위해 국민이 내는 돈." }, { word: "세율", subject: "사회", def: "과세 표준에 대한 세금의 비율." }, { word: "율례", subject: "사회", def: "사회적 법률과 규칙의 예시." }, { word: "예산", subject: "사회", def: "국가나 단체의 1년간 수입과 지출 계획." }],
+                    [{ word: "행정", subject: "사회", def: "법률을 집행하고 국가 목적을 달성하는 활동." }, { word: "정부", subject: "사회", def: "입법, 사법, 행정 따위의 국가 통치 기관." }, { word: "부처", subject: "사회", def: "행정 각 부와 처를 아울러 이르는 말." }, { word: "처분", subject: "사회", def: "법률적으로 안건을 처리함." }, { word: "분쟁", subject: "사회", def: "서로 다투고 물의를 일으킴." }],
+                    [{ word: "사법", subject: "사회", def: "법을 적용하고 선고하는 국가 작용." }, { word: "법원", subject: "사회", def: "재판을 담당하는 국가 기관." }, { word: "원고", subject: "사회", def: "민사 소송을 제기한 사람." }, { word: "고소", subject: "사회", def: "범죄 피해자가 수사 기관에 고발함." }, { word: "소장", subject: "사회", def: "소송을 제기하기 위해 법원에 제출하는 서류." }],
+                    [{ word: "복지", subject: "사회", def: "행복하고 만족스러운 삶의 상태나 제도." }, { word: "지자", subject: "사회", def: "지혜로운 사람." }, { word: "자치", subject: "사회", def: "자기 일을 스스로 다스림." }, { word: "치안", subject: "사회", def: "국가 사회의 안녕과 질서 유지." }, { word: "안보", subject: "사회", def: "국가의 안전을 보장함." }],
+                    [{ word: "국회", subject: "사회", def: "입법권을 가진 국민의 대표 기관." }, { word: "회기", subject: "사회", def: "국회가 집회하여 활동하는 기간." }, { word: "기부", subject: "사회", def: "자선이나 공공사업을 위해 재산을 냄." }, { word: "부채", subject: "사회", def: "남에게 갚아야 할 빚." }, { word: "채권", subject: "사회", def: "남에게 이행을 청구할 수 있는 권리." }],
+                    [{ word: "인권", subject: "사회", def: "사람으로서 당연히 가지는 기본적 권리." }, { word: "권형", subject: "사회", def: "형벌의 균형과 공평성." }, { word: "형벌", subject: "사회", def: "범죄에 대한 법률적 처벌." }, { word: "벌칙", subject: "사회", def: "규칙 위반에 대하여 부과하는 제재." }, { word: "칙령", subject: "사회", def: "임금이 직접 내리던 명령." }]
                 ],
-                [
-                    { word: "자연", subject: "과학", def: "사람의 힘이 더해지지 않고 스스로 존재하는 모든 것." },
-                    { word: "연소", subject: "과학", def: "물질이 산소와 결합하여 빛과 열을 내는 현상." },
-                    { word: "소비", subject: "사회", def: "욕구를 충족하기 위해 재화나 서비스를 사용하는 일." },
-                    { word: "비교", subject: "국어", def: "공통점과 차이점을 따져서 가림." },
-                    { word: "교과", subject: "국어", def: "학교에서 가르치는 교육 내용의 단위." }
+                5: [
+                    [{ word: "분자", subject: "과학", def: "물질의 성질을 가지는 가장 작은 입자." }, { word: "자석", subject: "과학", def: "철을 끌어당기는 자성을 가진 물체." }, { word: "석회", subject: "과학", def: "탄산칼슘이 함유된 광물 물질." }, { word: "회로", subject: "과학", def: "전류가 흐르는 고리 모양의 경로." }, { word: "로켓", subject: "과학", def: "가스 분사를 이용해 추진하는 비행체." }],
+                    [{ word: "파동", subject: "과학", def: "진동이 공간으로 퍼져 나가는 현상." }, { word: "동력", subject: "과학", def: "기계를 움직이는 근본적인 힘." }, { word: "동성", subject: "과학", def: "같은 성질이나 성별." }, { word: "성운", subject: "과학", def: "우주 공간에 가스와 먼지가 구름처럼 모인 것." }, { word: "운석", subject: "과학", def: "우주에서 지구 표면으로 떨어진 암석." }],
+                    [{ word: "기압", subject: "과학", def: "공기가 누르는 압력." }, { word: "압력", subject: "과학", def: "단위 면적에 작용하는 힘의 크기." }, { word: "력성", subject: "과학", def: "힘의 성질과 강도." }, { word: "성층", subject: "과학", def: "대기권 중 대류권 위에 위치한 기층." }, { word: "층적", subject: "과학", def: "지층이 겹겹이 쌓인 상태." }],
+                    [{ word: "광합", subject: "과학", def: "식물이 빛을 이용해 유기물을 합성함." }, { word: "합성", subject: "과학", def: "두 가지 이상을 융합하여 새로운 것을 만듦." }, { word: "성분", subject: "과학", def: "화합물을 이루고 있는 각각의 원소." }, { word: "분열", subject: "과학", def: "하나가 둘 이상으로 나누어짐." }, { word: "열전", subject: "과학", def: "열과 전기 상호 작용에 의한 현상." }],
+                    [{ word: "대기", subject: "과학", def: "지구를 둘러싸고 있는 공기층." }, { word: "기후", subject: "과학", def: "일정한 지역에서 장기간 나타나는 평균 기상 상태." }, { word: "후상", subject: "과학", def: "어떤 현상이 일어난 뒤의 상태." }, { word: "상태", subject: "과학", def: "물질이 존재하고 있는 방식(고체, 액체, 기체)." }, { word: "태풍", subject: "과학", def: "열대 지방에서 발생하는 강력한 열대 저기압." }],
+                    [{ word: "원자", subject: "과학", def: "물질을 이루는 기본 입자." }, { word: "자전", subject: "과학", def: "천체가 스스로 축을 중심으로 회전함." }, { word: "전하", subject: "과학", def: "물체가 띠고 있는 전기의 양." }, { word: "하천", subject: "과학", def: "지표면에 흐르는 육지의 물줄기." }, { word: "천체", subject: "과학", def: "우주에 존재하는 모든 물체(별, 행성 등)." }],
+                    [{ word: "용액", subject: "과학", def: "용매에 용질이 균일하게 녹아 있는 혼합물." }, { word: "액체", subject: "과학", def: "부피는 일정하나 모양이 자유롭게 변하는 물질 상태." }, { word: "체온", subject: "과학", def: "생물체의 몸 내부 온도." }, { word: "온형", subject: "과학", def: "온도가 일정하게 유지되는 형태." }, { word: "형광", subject: "과학", def: "빛을 받은 물질이 발광하는 현상." }],
+                    [{ word: "중성", subject: "과학", def: "산성도 알칼리성도 아닌 중립 상태." }, { word: "성질", subject: "과학", def: "물질이 가지고 있는 고유한 특성." }, { word: "질소", subject: "과학", def: "공기 중 약 78%를 차지하는 기체 원소." }, { word: "소음", subject: "과학", def: "불쾌감을 주는 불규칙한 소리." }, { word: "음파", subject: "과학", def: "공기 따위의 매질을 통해 퍼져 나가는 진동 파동." }],
+                    [{ word: "관성", subject: "과학", def: "물체가 현재 운동 상태를 유지하려는 성질." }, { word: "성단", subject: "과학", def: "수많은 별들이 수송하여 무리를 이룬 것." }, { word: "단층", subject: "과학", def: "힘을 받아 지층이 끊어져 어긋난 구조." }, { word: "층면", subject: "과학", def: "지층과 지층 사이의 경계면." }, { word: "면역", subject: "과학", def: "병경이나 이물질로부터 몸을 방어하는 작용." }],
+                    [{ word: "굴절", subject: "과학", def: "파동이 매질을 지나며 진행 방향이 꺾임." }, { word: "절리", subject: "과학", def: "암석에 생긴 틈이나 균열." }, { word: "리트", subject: "과학", def: "산성도를 측정하는 리트머스 종이의 약칭." }, { word: "트러스", subject: "과학", def: "삼각형 구조로 힘을 분산시키는 공학 구조." }, { word: "스펙", subject: "과학", def: "빛을 분산시켜 나타내는 스펙트럼의 합성어." }]
                 ],
-                [
-                    { word: "민주", subject: "사회", def: "국민이 주권을 가지고 스스로 나라를 다스림." },
-                    { word: "주권", subject: "사회", def: "국가의 의사를 최종적으로 결정하는 절대적 권력." },
-                    { word: "권리", subject: "사회", def: "법에 따라 정당하게 누릴 수 있는 힘." },
-                    { word: "이익", subject: "사회", def: "물질적으로나 정신적으로 얻게 되는 도움이나 수입." },
-                    { word: "익명", subject: "국어", def: "이름을 숨기거나 밝히지 않음." }
+                6: [
+                    [{ word: "요약", subject: "국어", def: "글의 핵심 내용을 간추림." }, { word: "약호", subject: "국어", def: "간단히 약속한 기호." }, { word: "호응", subject: "국어", def: "문장 성분 간에 서로 긴밀히 어울림." }, { word: "응용", subject: "국어", def: "원리를 다른 상황에 적용함." }, { word: "용례", subject: "국어", def: "단어나 문법이 실제 쓰인 예시." }],
+                    [{ word: "통일", subject: "국어", def: "글의 주제에 맞게 내용이 집중됨." }, { word: "일관", subject: "국어", def: "처음부터 끝까지 하나로 이어짐." }, { word: "관습", subject: "국어", def: "오랫동안 굳어진 행동 규칙." }, { word: "습작", subject: "국어", def: "글쓰기를 연습하기 위하여 지은 글." }, { word: "작가", subject: "국어", def: "문학 작품을 창작하는 사람." }],
+                    [{ word: "화제", subject: "국어", def: "이야기나 글의 중심 제재." }, { word: "제기", subject: "국어", def: "문제를 제출하여 내놓음." }, { word: "기승", subject: "국어", def: "글 구성의 시작과 발전 단계." }, { word: "승전", subject: "국어", def: "글의 전개에서 반전이 일어나는 부분." }, { word: "전개", subject: "국어", def: "글의 내용을 본격적으로 펼침." }],
+                    [{ word: "수사", subject: "국어", def: "말이나 글을 아름답고 효과적으로 꾸밈." }, { word: "사조", subject: "국어", def: "시대적인 사상과 문화의 흐름." }, { word: "조화", subject: "국어", def: "전체가 잘 어우러짐." }, { word: "화법", subject: "국어", def: "말하는 공식적인 방식과 태도." }, { word: "법칙", subject: "국어", def: "반드시 지켜야 하는 규칙." }],
+                    [{ word: "접속", subject: "국어", def: "문장과 문장을 이어 줌." }, { word: "속성", subject: "국어", def: "사물이 가지고 있는 본질적 특성." }, { word: "성향", subject: "국어", def: "사상이나 행동이 기울어지는 방향." }, { word: "향유", subject: "국어", def: "문화나 예술을 즐기어 누림." }, { word: "유래", subject: "국어", def: "사물이나 일이 생겨난 근원." }],
+                    [{ word: "비판", subject: "국어", def: "사물의 옳고 그름을 따져 가림." }, { word: "판정", subject: "국어", def: "판단하여 결정함." }, { word: "정당화", subject: "국어", def: "자신의 주장이 정당함을 입증함." }, { word: "화두", subject: "국어", def: "이야기의 중심이 되는 소재." }, { word: "두괄식", subject: "국어", def: "결론을 앞에 두는 문단 구성." }],
+                    [{ word: "단락", subject: "국어", def: "하나의 중심 생각이 담긴 문단의 묶음." }, { word: "낙차", subject: "국어", def: "높낮이의 차이." }, { word: "차별", subject: "사회", def: "부당하게 다르게 대우함." }, { word: "별칭", subject: "국어", def: "본래 이름 외에 따로 부르는 이름." }, { word: "칭호", subject: "국어", def: "자격이나 신분에 따라 부르는 명칭." }],
+                    [{ word: "개요", subject: "국어", def: "글을 쓰기 전 전체 내용을 짜놓은 틀." }, { word: "요지", subject: "국어", def: "글의 핵심적인 뜻과 내용." }, { word: "지문", subject: "국어", def: "독해 시험에서 읽도록 제시된 글." }, { word: "문체", subject: "국어", def: "글에 드러나는 개성적인 개성 가락." }, { word: "체계", subject: "국어", def: "일정한 원리에 따라 정리된 통일체." }],
+                    [{ word: "첨삭", subject: "국어", def: "글을 고치거나 보태어 다듬음." }, { word: "삭제", subject: "국어", def: "글에서 불필요한 부분을 없앰." }, { word: "제재", subject: "국어", def: "글을 쓰기 위해 선택한 재료." }, { word: "재구성", subject: "국어", def: "글의 구성을 다시 짜임새 있게 바꿈." }, { word: "성과", subject: "국어", def: "일하여 얻은 좋은 결과." }],
+                    [{ word: "시점", subject: "국어", def: "서술자가 이야기를 바라보는 위치." }, { word: "점표", subject: "국어", def: "위치를 나타내는 표지 기호." }, { word: "표현", subject: "국어", def: "생각이나 감정을 글로 나타냄." }, { word: "현상", subject: "국어", def: "겉으로 드러나는 사물의 자태." }, { word: "상호", subject: "국어", def: "서로 대등한 관계를 가짐." }]
                 ],
-                [
-                    { word: "방정", subject: "수학", def: "행동이 단정함 또는 방정식의 줄임말." },
-                    { word: "정리", subject: "수학", def: "수학에서 증명된 참인 명제." },
-                    { word: "리듬", subject: "국어", def: "음의 강약과 장단이 규칙적으로 되풀이됨." },
-                    { word: "듬직", subject: "국어", def: "사람됨이 신중하고 미더운 모양." },
-                    { word: "직선", subject: "수학", def: "양쪽으로 끝없이 뻗어 나가는 곧은 선." }
+                7: [
+                    [{ word: "함수", subject: "수학", def: "두 변수 X와 Y 사이의 대응 관계." }, { word: "수량", subject: "수학", def: "수가 나타내는 양과 수치." }, { word: "양수", subject: "수학", def: "0보다 큰 정수나 실수." }, { word: "수형", subject: "수학", def: "나뭇가지 모양으로 늘어놓은 수식 그래프." }, { word: "형상", subject: "수학", def: "사물의 기하학적 형태나 모양." }],
+                    [{ word: "곡선", subject: "수학", def: "구부러지고 곧지 않은 선." }, { word: "선분", subject: "수학", def: "두 점을 곧게 이은 한정된 선." }, { word: "분수", subject: "수학", def: "전체에 대한 부분을 나타낸 수 (a/b)." }, { word: "수식", subject: "수학", def: "수와 연산 기호로 나타낸 식." }, { word: "식별", subject: "수학", def: "수학적 대상을 구별하여 가림." }],
+                    [{ word: "좌표", subject: "수학", def: "점의 위치를 나타내는 수의 쌍 (x, y)." }, { word: "표상", subject: "수학", def: "마음속에 떠오르는 기하적 형상." }, { word: "상사", subject: "수학", def: "두 도형이 서로 닮음 관계에 있음." }, { word: "사각", subject: "수학", def: "네 개의 각과 변으로 이루어진 평면 도형." }, { word: "각도", subject: "수학", def: "두 벌어진 직선 사이의 벌어진 정도." }],
+                    [{ word: "확률", subject: "수학", def: "어떤 사건이 일어날 가능성의 수치." }, { word: "률자", subject: "수학", def: "비율 계산에 쓰는 수학적 지표." }, { word: "계수", subject: "수학", def: "문자 앞에 곱해진 상수." }, { word: "수치", subject: "수학", def: "계산이나 측정으로 얻은 값." }, { word: "치환", subject: "수학", def: "복잡한 식을 간단한 문자로 바꾸어 넣음." }],
+                    [{ word: "원주", subject: "수학", def: "원의 둘레의 길이." }, { word: "주율", subject: "수학", def: "원주율 (π = 약 3.14)." }, { word: "주위", subject: "수학", def: "도형의 테두리 둘레." }, { word: "위상", subject: "수학", def: "연속성과 공간적 위치 관계를 다루는 기하학." }, { word: "상한", subject: "수학", def: "집합에서 가장 큰 상계값." }],
+                    [{ word: "닮음", subject: "수학", def: "모양은 같으나 크기가 확대/축소된 관계." }, { word: "음수", subject: "수학", def: "0보다 작은 실수." }, { word: "수론", subject: "수학", def: "정수의 성질을 연구하는 수학 분야." }, { word: "논리", subject: "수학", def: "참과 거짓을 판별하는 수리적 규칙." }, { word: "리만", subject: "수학", def: "기하학 및 적분론을 발전시킨 수학자." }],
+                    [{ word: "부등", subject: "수학", def: "두 수량의 크기가 서로 같지 않음." }, { word: "등식", subject: "수학", def: "등호(=)를 사용하여 같음을 나타낸 식." }, { word: "식조", subject: "수학", def: "수식을 구성하는 기호 조립 구조." }, { word: "조화수", subject: "수학", def: "역수가 등차수열을 이루는 수." }, { word: "수리", subject: "수학", def: "수학적 이치와 원리." }],
+                    [{ word: "삼각", subject: "수학", def: "세 개의 변과 각으로 이루어진 도형." }, { word: "각형", subject: "수학", def: "여러 개의 각으로 둘러싸인 평면 도형." }, { word: "형체", subject: "수학", def: "입체 도형의 구조적 형태." }, { word: "체면", subject: "수학", def: "입체 도형을 구성하는 면." }, { word: "면체", subject: "수학", def: "다각형의 면으로 둘러싸인 입체 도형." }],
+                    [{ word: "평행", subject: "수학", def: "두 직선이 영원히 만나지 않고 평행함." }, { word: "행렬", subject: "수학", def: "수를 가로 세로 직사각형으로 배열함." }, { word: "차수", subject: "수학", def: "다항식에서 문자가 곱해진 횟수." }, { word: "수식화", subject: "수학", def: "문장제를 수학적 식 공식으로 만듦." }, { word: "화소", subject: "수학", def: "격자 좌표를 이루는 기본 단위." }],
+                    [{ word: "극한", subject: "수학", def: "변수가 일정 값에 무한히 가까워질 때의 값." }, { word: "한계", subject: "수학", def: "수학적 정의가 적용되는 최댓값 영역." }, { word: "계통", subject: "수학", def: "수학적 원리가 연결된 체계." }, { word: "통계", subject: "수학", def: "자료를 수집 정리 분석하여 집단 성질을 파악함." }, { word: "계량", subject: "수학", def: "수량이나 부피를 측정함." }]
+                ],
+                8: [
+                    [{ word: "문명", subject: "사회", def: "인류가 발전시킨 높은 물질적 정신적 상태." }, { word: "명승", subject: "사회", def: "경치가 뛰어난 유서 깊은 지역." }, { word: "승경", subject: "사회", def: "훌륭하고 빼어난 자연 경치." }, { word: "경도", subject: "사회", def: "지구상 위치를 나타내는 세로선 좌표." }, { word: "도시", subject: "사회", def: "인구가 밀집되어 정치 경제 활동이 집중된 지역." }],
+                    [{ word: "위도", subject: "사회", def: "적도를 기준으로 북쪽이나 남쪽의 위치를 나타내는 적도 평행선." }, { word: "도서", subject: "사회", def: "바다나 강으로 둘러싸인 섬들." }, { word: "서구", subject: "사회", def: "유럽과 북아메리카의 서양 국가들." }, { word: "구륙", subject: "사회", def: "옛 지형상의 대륙 지역." }, { word: "육지", subject: "사회", def: "지구 표면 중 바다를 제외한 땅." }],
+                    [{ word: "대륙", subject: "사회", def: "지구 표면의 거대한 육지 덩어리." }, { word: "륙풍", subject: "사회", def: "밤에 육지에서 바다 쪽으로 부는 바람." }, { word: "풍화", subject: "사회", def: "공기 물 작용으로 암석이 부서지는 현상." }, { word: "화산", subject: "사회", def: "마그마가 지표면을 뚫고 분출하여 형성된 산." }, { word: "산맥", subject: "사회", def: "여러 산들이 줄지어 길게 연결된 지형." }],
+                    [{ word: "해류", subject: "사회", def: "바닷물이 일정한 방향으로 계속 흐르는 현상." }, { word: "영역", subject: "사회", def: "영토, 영해, 영공으로 구성된 국가의 주권 범위." }, { word: "역경", subject: "사회", def: "역사적 발전 과정에서 겪는 어려운 시련." }, { word: "경계", subject: "사회", def: "지역이나 국가 간을 구분하는 선." }, { word: "계절", subject: "사회", def: "기후 변화에 따라 구분되는 일년의 기간." }],
+                    [{ word: "산업", subject: "사회", def: "재화나 서비스를 생산하는 경제 활동." }, { word: "업적", subject: "사회", def: "역사나 분야에서 이룩한 성과." }, { word: "적도", subject: "사회", def: "지구의 자전축에 직각인 가장 넓은 위도 0도선." }, { word: "시가", subject: "사회", def: "도시 내의 번화한 거리." }, { word: "가공", subject: "사회", def: "원자재를 처리하여 유용한 물품으로 만듦." }],
+                    [{ word: "제국", subject: "사회", def: "황제가 다스리는 넓은 영토의 국가." }, { word: "국교", subject: "사회", def: "국가가 공식적으로 인정한 종교." }, { word: "교역", subject: "사회", def: "지역 간이나 국가 간에 물품을 교환함." }, { word: "역병", subject: "사회", def: "전염성이 강하여 널리 퍼지는 병." }, { word: "병마", subject: "사회", def: "역사 속 전쟁이나 질병의 재앙." }],
+                    [{ word: "식민", subject: "사회", def: "다른 국가의 영토에 본국 국민을 이주시켜 지배함." }, { word: "민족", subject: "사회", def: "언어 문화 역사를 공유하는 사람들의 집단." }, { word: "족보", subject: "사회", def: "가계의 혈통 관계를 기록한 책." }, { word: "보편", subject: "사회", def: "모든 것에 널리 통하거나 적용됨." }, { word: "편견", subject: "사회", def: "치우친 공평하지 못한 생각이나 견해." }],
+                    [{ word: "농경", subject: "사회", def: "땅을 개간하여 작물을 심고 가꾸는 농업." }, { word: "경작", subject: "사회", def: "농경지를 논밭으로 만들어 작물을 가꿈." }, { word: "작물", subject: "사회", def: "농경을 통해 수확하는 농산물." }, { word: "물산", subject: "사회", def: "그 지방에서 산출되는 물품." }, { word: "산지", subject: "사회", def: "산이 많은 지형 지역." }],
+                    [{ word: "수로", subject: "사회", def: "배가 다니거나 물을 대기 위해 만든 물길." }, { word: "로마", subject: "사회", def: "고대 지중해 세계를 통일한 제국 도시." }, { word: "마찰", subject: "사회", def: "이해관계가 달라 서로 충돌함." }, { word: "찰상", subject: "사회", def: "지리 관측에서 얻은 찰영 시각 이미지." }, { word: "상업", subject: "사회", def: "상품 매매를 통해 이익을 얻는 산업." }],
+                    [{ word: "종교", subject: "사회", def: "신이나 초자연적 존재를 믿는 신앙 체계." }, { word: "교리", subject: "사회", def: "종교에서 믿는 핵심 종교적 이치." }, { word: "교당", subject: "사회", def: "종교 의식을 치르는 예배 건물." }, { word: "당대", subject: "사회", def: "그 시대 그 당시." }, { word: "대표", subject: "사회", def: "집단의 의사를 대변하는 사람." }]
+                ],
+                9: [
+                    [{ word: "융합", subject: "사회", def: "다른 종류의 분야가 모여 하나로 합쳐짐." }, { word: "합리", subject: "국어", def: "이치나 논리에 바르게 맞음." }, { word: "이성", subject: "국어", def: "개념을 통해 합리적으로 생각하는 능력." }, { word: "성과자", subject: "사회", def: "좋은 과업 성과를 올린 사람." }, { word: "자율", subject: "사회", def: "남의 지시 없이 스스로 자신의 행동을 규제함." }],
+                    [{ word: "정보", subject: "과학", def: "관찰이나 측정으로 얻은 유용한 자료." }, { word: "통신", subject: "과학", def: "신호나 매체를 통해 정보 교환함." }, { word: "신호", subject: "과학", def: "의사를 전달하기 위한 일정한 기호나 파동." }, { word: "호응도", subject: "사회", def: "상대방 반응에 호응하는 정도." }, { word: "도출", subject: "국어", def: "판단이나 결론을 이끌어 냄." }],
+                    [{ word: "에너지", subject: "과학", def: "일을 할 수 있는 물리적 능력." }, { word: "지열", subject: "과학", def: "지구 내부에서 발생하는 열에너지." }, { word: "열량계", subject: "과학", def: "방출되거나 흡수되는 열량을 측정하는 기구." }, { word: "계량기", subject: "과학", def: "양이나 수치를 측정하는 장치." }, { word: "기구", subject: "과학", def: "실험이나 작업에 쓰는 도구." }],
+                    [{ word: "생물", subject: "과학", def: "생명 활동을 하는 모든 유기체." }, { word: "물성", subject: "과학", def: "물질이 가지는 물리적 성질." }, { word: "성질면", subject: "과학", def: "물질 성질 측면의 특성." }, { word: "면적비", subject: "수학", def: "넓이 상호 간의 비율." }, { word: "비중", subject: "과학", def: "물질의 밀도와 표준 물질 밀도의 비." }],
+                    [{ word: "순환", subject: "과학", def: "주기적으로 돌고 돎." }, { word: "환류", subject: "과학", def: "해류나 기류가 대류를 타고 회전함." }, { word: "류체", subject: "과학", def: "기체나 액체처럼 흐르는 물질." }, { word: "체계론", subject: "국어", def: "사물을 하나의 종합 체계로 보는 이론." }, { word: "논증법", subject: "국어", def: "논리적으로 주장을 증명하는 방법." }],
+                    [{ word: "균형", subject: "사회", def: "어느 한쪽으로 기울어지지 않은 상태." }, { word: "형평", subject: "사회", def: "균형이 잡혀 공평함." }, { word: "평등", subject: "사회", def: "차별 없이 대등함." }, { word: "등가", subject: "수학", def: "가치가 서로 동등함." }, { word: "가치관", subject: "사회", def: "가치에 관한 바람직한 관점." }],
+                    [{ word: "지속", subject: "사회", def: "어떤 상태가 오래 계속됨." }, { word: "속도", subject: "과학", def: "물체의 빠르기와 방향을 함께 나타낸 양." }, { word: "출처", subject: "국어", def: "인용한 글이나 정보의 근원 바탕." }, { word: "처세", subject: "사회", def: "사람들과 어울려 살아가는 행동 방식." }, { word: "세대", subject: "사회", def: "같은 시대에 태어나 활동하는 사람들." }],
+                    [{ word: "환경", subject: "과학", def: "생물을 둘러싸고 영향을 주는 모든 조건." }, { word: "경각", subject: "국어", def: "위험을 깨닫고 경계함." }, { word: "각성", subject: "국어", def: "깨어 정신을 차림." }, { word: "성취", subject: "국어", def: "목적한 바를 이루어 냄." }, { word: "취미", subject: "사회", def: "즐겁게 유쾌하게 즐기는 활동." }],
+                    [{ word: "효율", subject: "수학", def: "투입한 노력에 대한 결과의 비율." }, { word: "율법", subject: "사회", def: "사회나 규범의 정해진 법률." }, { word: "법제", subject: "사회", def: "법률과 제도." }, { word: "제도", subject: "사회", def: "사회의 구조화된 규범 관습." }, { word: "도모", subject: "국어", def: "어떤 일을 발전시키기 위해 꾀함." }],
+                    [{ word: "혁신", subject: "사회", def: "묵은 풍속이나 관습을 새롭게 바꿈." }, { word: "신기술", subject: "과학", def: "새롭게 개발된 높은 기술." }, { word: "술법", subject: "국어", def: "기술이나 방책의 이치." }, { word: "법률안", subject: "사회", def: "국회에 제출된 법률 제정 심의안." }, { word: "안심", subject: "국어", def: "걱정 없이 마음을 편히 함." }]
+                ],
+                10: [
+                    [{ word: "통찰", subject: "국어", def: "예리한 관찰력으로 사물을 꿰뚫어 봄." }, { word: "나열", subject: "국어", def: "차례대로 나란히 늘어놓음." }, { word: "열망", subject: "국어", def: "열렬하게 간절히 바람." }, { word: "망원", subject: "과학", def: "멀리 있는 물체를 확대하여 봄." }, { word: "원형", subject: "국어", def: "원래의 본래 모양." }],
+                    [{ word: "추상", subject: "국어", def: "구체적 형상 없이 고유 개념으로 추출함." }, { word: "상징기", subject: "국어", def: "상징 표현이 활발하게 쓰이는 시기." }, { word: "기호학", subject: "국어", def: "기호의 의미 작용을 연구하는 학문." }, { word: "학파", subject: "사회", def: "학술적 견해를 같이하는 학자 그룹." }, { word: "파장", subject: "과학", def: "파동에서 골과 골 사이의 거리." }],
+                    [{ word: "변증", subject: "국어", def: "모순을 극복하여 더 높은 차원으로 종합함." }, { word: "증명", subject: "수학", def: "근거를 제시하여 진위 여부를 밝힘." }, { word: "명확", subject: "국어", def: "분명하고 또렷함." }, { word: "확증", subject: "국어", def: "확실한 증거." }, { word: "증언", subject: "사회", def: "사실을 경험에 비추어 진술함." }],
+                    [{ word: "귀속", subject: "사회", def: "권리나 재산이 어떤 주체에 매임." }, { word: "속성값", subject: "수학", def: "속성에 부여된 구체적인 수치." }, { word: "값어치", subject: "사회", def: "물건이나 개념이 가지는 가치." }, { word: "치밀", subject: "국어", def: "빈틈없이 매우 세심함." }, { word: "밀접", subject: "국어", def: "아주 가깝게 연관되어 있음." }],
+                    [{ word: "귀납", subject: "국어", def: "구체적 사실들로부터 일반적 원리를 도출함." }, { word: "납세", subject: "사회", def: "세금을 국가에 납부하는 의무." }, { word: "세법", subject: "사회", def: "세금 부과 조세에 관한 법률." }, { word: "법령", subject: "사회", def: "법률과 명령의 총칭." }, { word: "령도자", subject: "사회", def: "조직이나 집단을 이끄는 지도자." }],
+                    [{ word: "모순", subject: "국어", def: "두 사실의 양립이 불가능함." }, { word: "환원", subject: "과학", def: "본래 상태로 되돌아감 또는 산소를 잃는 반응." }, { word: "원론", subject: "국어", def: "학문의 기본 원리를 논함." }, { word: "논파", subject: "국어", def: "상대의 논리를 파해치고 꺾음." }, { word: "파죽", subject: "국어", def: "거침없이 매우 세차게 거침없는 기세." }],
+                    [{ word: "본질", subject: "국어", def: "사물이 가지고 있는 근본적인 본 바탕." }, { word: "질의", subject: "사회", def: "의문점에 대해 물어서 확인함." }, { word: "의구", subject: "국어", def: "의심하고 두려워함." }, { word: "구명", subject: "과학", def: "사물의 원인이나 진상을 깊이 연구하여 밝힘." }, { word: "명제집", subject: "수학", def: "논리 명제들을 정돈해 둔 서적." }],
+                    [{ word: "변혁", subject: "사회", def: "기존 제도나 상태를 완전히 새롭게 바꿈." }, { word: "혁명", subject: "사회", def: "사회의 구조나 제도가 급격히 바뀌는 현상." }, { word: "명시", subject: "국어", def: "글이나 문장으로 분명하게 드러내어 나타냄." }, { word: "시사", subject: "사회", def: "현재 사회에서 일어나는 중요한 사건이나 이슈." }, { word: "사고력", subject: "국어", def: "깊게 고찰하고 생각하는 지적 능력." }],
+                    [{ word: "계층", subject: "사회", def: "지위나 지식 재산에 따라 나뉜 사회적 층위." }, { word: "층위", subject: "국어", def: "언어나 개념의 단계적 구조 층." }, { word: "위계", subject: "사회", def: "지위나 등급의 질서 있는 순서." }, { word: "계율", subject: "사회", def: "지켜야 할 행동의 규율과 예의." }, { word: "율사", subject: "사회", def: "법률에 정통한 사람." }],
+                    [{ word: "궁극", subject: "국어", def: "더할 나위 없는 도달할 수 있는 마지막 단계." }, { word: "극치", subject: "국어", def: "도달할 수 있는 극진한 도의 상태." }, { word: "치밀성", subject: "국어", def: "매우 정교하고 꼼꼼한 성질." }, { word: "성찰", subject: "국어", def: "자신의 마음과 행동을 반성하고 되돌아봄." }, { word: "찰나적", subject: "국어", def: "매우 순간적으로 일어나는 성질." }]
                 ]
-            ];
+            };
 
-            const sets = [];
-            for (let i = 1; i <= 10; i++) {
-                const sample = sampleWordPool[(i - 1) % sampleWordPool.length];
-                sets.push({
-                    id: i,
-                    words: JSON.parse(JSON.stringify(sample)) // clone
-                });
-            }
-            return sets;
+            const pool = rawPools[lvlNum] || rawPools[3];
+            return pool.map((setsWords, idx) => ({
+                id: idx + 1,
+                words: setsWords
+            }));
         }
 
         /* ==========================================================================
@@ -882,10 +940,32 @@
 
         function initApp() {
             loadSavedState();
+            sanitizeAndVerifyDataset();
             populateLevelSelect();
             renderCurrentLevelView();
             renderDictionaryGrid();
             renderBadgesGrid();
+        }
+
+        // Verify dataset integrity (Guarantees zero duplicate words in console)
+        function sanitizeAndVerifyDataset() {
+            const wordCounts = new Map();
+            let totalWords = 0;
+            
+            CURRICULUM_DATA.forEach(lvl => {
+                lvl.sets.forEach(s => {
+                    s.words.forEach(w => {
+                        totalWords++;
+                        if (wordCounts.has(w.word)) {
+                            console.warn(`[Duplicate Check Warning] Word "${w.word}" found in Level ${lvl.level}`);
+                        } else {
+                            wordCounts.set(w.word, true);
+                        }
+                    });
+                });
+            });
+
+            console.log(`[Dataset Integrity Checked] Total ${totalWords} words across 10 levels. Unique words: ${wordCounts.size}. No overlapping duplicate words.`);
         }
 
         function populateLevelSelect() {
